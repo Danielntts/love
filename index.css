@@ -1,0 +1,78 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.botoes button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botoes .sim {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.botoes .sim:hover {
+  background-color: #45a049;
+}
+
+.botoes .nao {
+  background-color: #f44336;
+  color: white;
+}
+
+.botoes .nao:hover {
+  background-color: #e53935;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.fuga-container {
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+#btnNao {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.botao-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-link:hover {
+  background-color: #45a049;
+}
