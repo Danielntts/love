@@ -301,3 +301,18 @@ svg #point {
     stroke-dashoffset: 0;
   }
 }
+
+.imagem-topo {
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;  /* bordas redondas */
+  display: block;
+  margin: 0 auto 20px;  /* centraliza e dá um espaço pra baixo */
+}
+
+.descricao {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
