@@ -257,7 +257,20 @@ body {
   text-decoration: none;
   padding: 10px 20px;
   color: white;
-  background-color: #4CAF50;
+  background-color: #f11c1c;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.extra3 {
+  
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #6c4cfd00;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
@@ -302,7 +315,7 @@ svg #point {
   }
 }
 
-.imagem-topo {
+.imagem-topoo {
   width: 200px;
   height: 300px;
   border-radius: 10%;  /* bordas redondas */
