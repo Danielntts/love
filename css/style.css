@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height:150vh;
-    background-color: rgba(168, 167, 167, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
   }
   /*Create the card container*/
   .birthdayCard {
@@ -48,7 +48,7 @@ body {
   /*Style the front of the card*/
   .cardFront {
     position: relative;
-    background-color: rgb(255, 246, 246);
+    background-color: rgb(255, 112, 219);
     width: 250px;
     height:350px;
     overflow: hidden;
